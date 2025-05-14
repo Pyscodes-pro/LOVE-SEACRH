@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Warna untuk tampilan
+
 r='\e[31m'
 g='\e[32m'
 y='\e[33m'
@@ -10,7 +10,7 @@ c='\e[36m'
 w='\e[97m'
 reset='\e[0m'
 
-# Fungsi loading animation
+
 f1() { 
     echo -e "${c}🔍 Mencari... ${reset}"
     for i in {1..5}; do 
@@ -20,7 +20,7 @@ f1() {
     echo "" 
 }
 
-# Watermark Tersembunyi
+
 w1() {
     echo -e "${w}✨-----------------------------------------------✨${reset}"
     echo -e "${w}             🖋️ Script by: pyscodes ❤${reset}"
@@ -85,6 +85,6 @@ echo -e "${g}🧱   Tapi mungkin... suatu hari akan ada yang datang, tanpa dimin
 sleep 1
 echo -e "${c}⌛   Sampai saat itu tiba, aku akan terus berjalan... meski sendiri.${reset}"
 
-# Menampilkan watermark lagi di akhir untuk memastikan
+
 sleep 2
 w1
